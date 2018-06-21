@@ -16,45 +16,48 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
+<script src="js/script.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
 <body>
         <header class="container-fluid ">
-                <h2 class="cw">
+                <h3 class="cw">
                     JEE (Advanced) 2018 Moke Test
-                </h2>
+                </h3>
               </header><!--End Header code-->
     <section>       
+        <div id="showdate">Date: </div>
  <div class="container-fluid header-contant">
                     <div class="row">
-                      <div class="col-md-4">
+                      <div class="col-md-8">
                         <p>System Name:</p>
-                        <p class="display-4">CN001</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h3 class="text-larg">CN001</h3>
+                        <p><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></p>
                       </div>
-                      <div class="col-md-4 text-right offset-md-2">
+                      <div class="col-md-3 user">
+                          <div class="text-right" style="float: left; margin-right: 20px;">
                         <p>
                           Candidate Name:
                         </p>
-                        <p class="display-4">
+                        <h3 class="text-larg">
                             Amit Kumar
-                          </p>
+                          </h3>
                         <p>
                             Subject: Mock Exam
                           </p>
-                    
-                      </div>
-                      <div class="col-md-2">
-                            <div class="img-profile">
-                                    <img src="images/profile.jpg">
-                                    </div>
-                      </div>
+                        </div>
+                        <div style="float: left;">
+                          <div class="img-profile">
+                            <img src="images/profile.jpg">
+                            </div>
+                        </div>
+                        </div>
                     </div>
                     </div>
                 </section>   
     <!-- Login box code -->
-    <div class="container ">
+    <div class="container mt-4">
     <div class="login-box">
         <div class="box-header">
             <h5>Login</h5>
@@ -62,28 +65,28 @@
         <div class="container">
             <div class="input-group my-1">
                 <div class="input-group-prepend">
-                  <span class="input-group-text" id="validationTooltipUsernamePrepend"><i class="fas fa-user"></i></span>
+                  <span class="input-group-text"><i class="fas fa-user"></i></span>
                 </div>
-                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                <input type="text" class="form-control"  placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="validationTooltipUsernamePrepend"><i class="fas fa-keyboard"></i></span>
+                    <span class="input-group-text"><i class="fas fa-keyboard"></i></span>
                   </div>
         </div>
         <div class="input-group my-3">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="validationTooltipUsernamePrepend"><i class="fas fa-key"></i></span>
+              <span class="input-group-text"><i class="fas fa-key"></i></span>
             </div>
-            <input type="password" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+            <input type="password" class="form-control"  placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
             <div class="input-group-prepend">
-                <span class="input-group-text" id="validationTooltipUsernamePrepend"><i class="fas fa-keyboard"></i></span>
+                <span class="input-group-text"><i class="fas fa-keyboard"></i></span>
               </div>
     </div>
-    <button type="button" class="btn btn-primary btn-width">Sign In</button>
+    <a href="instructions.html" role="button" class="btn btn-primary btn-width">Sign In</a>
     </div>
 </div></div>
     <!-- End of the login box code -->
     <footer class="container-fluid">
-        
+        Version: 1
     </footer>
 </body>
 </html>
